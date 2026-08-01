@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ===================== SEO / GEO ===================== -->
+<title>Карта туалетов Мадрида — бесплатные и платные aseos públicos | Кристина Перез</title>
+<meta name="description" content="карта туалетов Мадрида от Кристины Перез: данные с сайта мэрии Мадрида. Собраны платные и бесплатные (условно-платные) варианты">
+<meta name="keywords" content="карта туалетов мадрида, туалеты в мадриде, бесплатные туалеты мадрид, общественные туалеты мадрид, где туалет в мадриде, aseos públicos madrid, туалеты в центре мадрида, платный туалет мадрид цена, туалеты мадрид карта, public toilets madrid map, madrid free toilets, aseos gratuitos madrid mapa, ближайший туалет мадрид, туалеты рядом мадрид, доступный туалет для коляски мадрид, пеленальный столик туалет мадрид, сколько стоит туалет в мадриде">
+<meta name="author" content="Кристина Перез">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://aseosmadrid.netlify.app/">
+
+<!-- Open Graph / preview for smartphones (WhatsApp, Telegram, iMessage, FB, VK) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:title" content="Карта туалетов Мадрида — бесплатные и платные aseos públicos">
+<meta property="og:description" content="карта туалетов Мадрида от Кристины Перез: данные с сайта мэрии Мадрида. Собраны платные и бесплатные (условно-платные) варианты.">
+<meta property="og:image" content="https://aseosmadrid.netlify.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Карта туалетов Мадрида">
+<meta property="og:url" content="https://aseosmadrid.netlify.app/">
+<meta property="og:site_name" content="Карта туалетов Мадрида">
+
+<!-- Twitter / X card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Карта туалетов Мадрида — бесплатные и платные aseos públicos">
+<meta name="twitter:description" content="Интерактивная карта общественных туалетов Мадрида: 130+ точек по данным мэрии.">
+<meta name="twitter:image" content="https://aseosmadrid.netlify.app/og-image.png">
+
+<!-- Mobile "add to home screen" -->
+<meta name="theme-color" content="#0B3350">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Aseos Madrid">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+<!-- JSON-LD: Map / WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Карта туалетов Мадрида",
+  "description": "Интерактивная карта общественных туалетов Мадрида (aseos públicos): бесплатные и платные (условно-платные, 0,10 евро) точки по данным портала открытых данных мэрии Мадрида.",
+  "inLanguage": "ru",
+  "url": "https://aseosmadrid.netlify.app/",
+  "author": {
+    "@type": "Person",
+    "name": "Кристина Перез"
+  },
+  "about": {
+    "@type": "Place",
+    "name": "Мадрид",
+    "alternateName": "Madrid"
+  },
+  "mainEntity": {
+    "@type": "Map",
+    "name": "Карта общественных туалетов Мадрида",
+    "description": "Карта с расположением, часами работы, стоимостью и доступностью общественных туалетов Мадрида по районам."
+  }
+}
+</script>
+
+<!-- JSON-LD: Person (автор) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Кристина Перез",
+  "url": "https://aseosmadrid.netlify.app/",
+  "sameAs": [
+    "https://t.me/FeedbackCristinaBot",
+    "https://www.youtube.com/@Cristina-Perez-Monroe",
+    "https://kristinaperez.netlify.app/",
+    "https://pitermap.netlify.app/",
+    "https://aseosmadrid.netlify.app/"
+  ],
+  "jobTitle": "Автор карты туалетов Мадрида"
+}
+</script>
+
+<!-- JSON-LD: FAQPage — прямые ответы на вопросы, которые задают в поиске и в чатах с ИИ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Сколько общественных туалетов в Мадриде?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "По данным портала открытых данных мэрии Мадрида (datos.madrid.es), в городе действует около 130 стационарных общественных туалетов (aseos públicos), установленных по контракту на городскую мебель с рекламой. Дополнительно в парках и культурных центрах есть отдельные бесплатные туалеты, не входящие в этот реестр."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Туалеты в Мадриде бесплатные или платные?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Установка и обслуживание сети городских туалетов не стоит бюджету города — расходы покрываются за счёт рекламы на кабинках. Но за одно посещение большинства кабинок взимается символическая плата 0,10 евро, которую нужно опустить монетой при входе. Отдельные туалеты — например, в парке Ретиро, Casa de Campo или Matadero Madrid — полностью бесплатны."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "В каком районе Мадрида больше всего общественных туалетов?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Больше всего точек в районе Арганзуэла (Arganzuela) — около 11-12 туалетов. Также много точек в районах Латина (Latina) и Карабанчель (Carabanchel)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какие часы работы у туалетов в Мадриде?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Большинство уличных кабинок-тотемов работают круглосуточно, доступ открывается автоматически после оплаты. Туалеты в парках и на территории учреждений работают по часам самого парка или учреждения — обычно с раннего утра до заката или закрытия."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Доступны ли туалеты Мадрида для людей с инвалидностью и колясок?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, кабинки спроектированы по принципу универсального дизайна: автоматические двери, пространство для разворота коляски, поручни, антивандальное зеркало и откидной пеленальный столик для младенцев."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что делать, если общественный туалет в Мадриде не работает?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "О неисправности можно сообщить через раздел «Sugerencias y reclamaciones» на официальном сайте мэрии Мадрида madrid.es — там указан канал обращений по городской мебели и общественным туалетам."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Откуда взяты данные о туалетах на этой карте?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Координаты платных (условно-платных) туалетов взяты из официального набора данных «Aseos públicos fijos con publicidad» портала открытых данных мэрии Мадрида (datos.madrid.es). Бесплатные точки в парках и культурных центрах отмечены дополнительно на основе открытых источников города."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --navy:#0B3350;
+    --navy-deep:#082537;
+    --gold:#C89B3C;
+    --cream:#F2EFE6;
+    --line:#D8CFB8;
+    --ink:#132430;
+    --free:#2E7D5B;
+    --paid:#B24C2E;
+  }
+  *{box-sizing:border-box;}
+  html,body{
+    margin:0;
+    font-family:"Iowan Old Style","Georgia",serif;
+    background:var(--cream);
+    color:var(--ink);
+  }
+  header{
+    background:var(--navy);
+    color:var(--cream);
+    padding:14px 18px 12px;
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:10px;
+    flex-wrap:wrap;
+    border-bottom:3px solid var(--gold);
+  }
+  header h1{
+    font-size:1.15rem;
+    margin:0;
+    font-weight:600;
+    letter-spacing:.2px;
+  }
+  header h1 small{
+    display:block;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.62rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin-top:2px;
+  }
+  .stat{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.68rem;
+    text-align:right;
+    color:#C9D6DE;
+    line-height:1.3;
+  }
+  .stat b{ color:var(--cream); font-size:1rem; display:block; font-family:Georgia,serif;}
+
+  .toolbar{
+    background:var(--navy-deep);
+    padding:8px 18px;
+    display:flex;
+    gap:10px;
+    align-items:center;
+    flex-wrap:wrap;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+  }
+  .toolbar label{ color:#C9D6DE; font-size:.72rem; }
+  .toolbar select{
+    background:var(--cream);
+    border:1px solid var(--line);
+    border-radius:2px;
+    padding:5px 8px;
+    font-size:.78rem;
+    font-family:inherit;
+    color:var(--ink);
+  }
+
+  #map{
+    height:62vh;
+    min-height:360px;
+    width:100%;
+  }
+
+  .legend{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    background:var(--navy);
+    color:var(--cream);
+    padding:10px 18px;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+    font-size:.72rem;
+    border-top:1px solid #1B4A6B;
+  }
+  .legend span{display:flex; align-items:center; gap:6px;}
+  .dot{width:11px;height:11px;border-radius:50%;display:inline-block;border:2px solid var(--cream);}
+  .dot.free{background:var(--free);}
+  .dot.paid{background:var(--paid);}
+
+  .leaflet-popup-content-wrapper{
+    background:var(--cream);
+    border-radius:2px;
+    border:1px solid var(--line);
+  }
+  .leaflet-popup-tip{background:var(--cream);}
+  .popup h3{
+    margin:0 0 4px;
+    font-size:.92rem;
+    color:var(--navy-deep);
+  }
+  .popup p{
+    margin:2px 0;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.76rem;
+    line-height:1.35;
+  }
+  .badge{
+    display:inline-block;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.62rem;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    padding:2px 6px;
+    border-radius:2px;
+    margin-top:4px;
+  }
+  .badge.free{background:var(--free); color:#fff;}
+  .badge.paid{background:var(--paid); color:#fff;}
+
+  footer{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    background:var(--navy-deep);
+    color:#9FB2BE;
+    font-size:.68rem;
+    padding:10px 18px 16px;
+    line-height:1.5;
+  }
+  footer a{color:var(--gold);}
+
+  /* ===== Visible SEO / GEO content block ===== */
+  .seo-content{
+    max-width:820px;
+    margin:0 auto;
+    padding:28px 20px 50px;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    line-height:1.55;
+  }
+  .seo-content h2{
+    font-family:Georgia,serif;
+    color:var(--navy-deep);
+    font-size:1.15rem;
+    margin:1.6em 0 .5em;
+    border-bottom:2px solid var(--gold);
+    padding-bottom:6px;
+  }
+  .seo-content h2:first-child{ margin-top:0; }
+  .seo-content p{ font-size:.9rem; color:#2b3d47; }
+  .faq{ display:flex; flex-direction:column; gap:14px; }
+  .faq-item{
+    background:#fff;
+    border:1px solid var(--line);
+    border-left:3px solid var(--gold);
+    border-radius:2px;
+    padding:12px 14px;
+  }
+  .faq-item h3{ margin:0 0 6px; font-size:.92rem; color:var(--navy-deep); font-family:Georgia,serif; }
+  .faq-item p{ margin:0; font-size:.84rem; color:#334752; }
+  .tag-cloud{ display:flex; flex-wrap:wrap; gap:8px; }
+  .tag-cloud span{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:5px 12px;
+    font-size:.72rem;
+    color:#4a5a63;
+  }
+  .promo{ margin:6px 0 0; }
+
+  @media (max-width:480px){
+    header{padding:10px 12px;}
+    header h1{font-size:1rem;}
+    .toolbar{padding:8px 12px;}
+    .legend{padding:8px 12px; font-size:.68rem; gap:10px;}
+    footer{padding:8px 12px 14px;}
+    .seo-content{padding:22px 14px 40px;}
+  }
+</style>
+</head>
+<body>
+<meta name="google-site-verification" content="ZjVxI1b6pNkHKDMngdgiecAkOZgNiGaXEC6FuucKKTw"/>
+
+<header>
+  <h1>Aseos públicos de Madrid<small>Карта туалетов Мадрида</small></h1>
+  <div class="stat"><b id="count">—</b>точек на карте</div>
+</header>
+
+<div class="toolbar">
+  <label for="district-filter">Район:</label>
+  <select id="district-filter">
+    <option value="all">Все районы</option>
+  </select>
+  <label for="type-filter">Тип:</label>
+  <select id="type-filter">
+    <option value="all">Все</option>
+    <option value="free">Только бесплатные</option>
+    <option value="paid">Платные (0,10 €)</option>
+  </select>
+</div>
+
+<div id="map" role="application" aria-label="Карта туалетов Мадрида"></div>
+
+<div class="legend">
+  <span><i class="dot free"></i> бесплатно</span>
+  <span><i class="dot paid"></i> платно, 0,10 € за посещение</span>
+</div>
+
+<footer>
+  Платные точки (0,10 €) — официальные данные набора «Aseos públicos fijos con publicidad» портала открытых данных мэрии Мадрида
+  (<a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=edcaaa8cf6bda510VgnVCM1000001d4a900aRCRD" rel="noopener nofollow">datos.madrid.es</a>).
+  Бесплатные точки в парках и культурных центрах отмечены дополнительно и могут меняться — уточняйте табличку на месте.
+</footer>
+
+<!-- ===== Visible SEO / GEO content block ===== -->
+<section class="seo-content">
+  <h2>Карта туалетов Мадрида</h2>
+  <p>Эта интерактивная карта туалетов Мадрида собирает общественные aseos públicos города: платные (условно-платные, по 0,10 евро за посещение) кабинки-тотемы и отдельные полностью бесплатные туалеты в парках и культурных центрах. Координаты платных точек взяты из официального портала открытых данных мэрии Мадрида и позволяют быстро найти ближайший туалет в любом районе города — от центра (Sol, Gran Vía) до окраинных районов вроде Барахас или Вильяверде.</p>
+
+  <h2>Сколько стоит туалет в Мадриде и где найти бесплатный</h2>
+  <p>Большинство уличных кабинок в Мадриде технически бесплатны для города (их обслуживание оплачивает рекламный подрядчик), но с посетителя берут символическую плату 0,10 евро монетой. Полностью бесплатные туалеты без всякой оплаты есть в парке Ретиро, Casa de Campo, Matadero Madrid и в парке Хуан Карлос I — они отмечены на карте отдельным зелёным цветом.</p>
+
+  <h2>Часто задаваемые вопросы</h2>
+  <div class="faq">
+    <div class="faq-item">
+      <h3>Сколько общественных туалетов в Мадриде?</h3>
+      <p>Около 130 стационарных туалетов по данным портала открытых данных мэрии Мадрида, плюс отдельные бесплатные точки в парках и культурных центрах.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Туалеты в Мадриде бесплатные или платные?</h3>
+      <p>Городу они не стоят ни евро (расходы покрывает реклама на кабинках), но за одно посещение большинства из них берут символическую плату 0,10 евро. Часть туалетов в парках — полностью бесплатны.</p>
+    </div>
+    <div class="faq-item">
+      <h3>В каком районе Мадрида больше всего туалетов?</h3>
+      <p>Больше всего точек в районе Арганзуэла (Arganzuela) — около 11-12 туалетов, за ним следуют Латина (Latina) и Карабанчель (Carabanchel).</p>
+    </div>
+    <div class="faq-item">
+      <h3>Какие часы работы у туалетов в Мадриде?</h3>
+      <p>Уличные кабинки-тотемы обычно работают круглосуточно. Туалеты в парках и учреждениях — по часам самого парка или учреждения.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Доступны ли туалеты для колясок и людей с инвалидностью?</h3>
+      <p>Да — кабинки спроектированы по принципу универсального дизайна: автоматические двери, поручни и откидной пеленальный столик.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Откуда взяты данные о туалетах на этой карте?</h3>
+      <p>Платные точки — из официального набора данных «Aseos públicos fijos con publicidad» портала datos.madrid.es. Бесплатные точки в парках отмечены дополнительно по открытым источникам города.</p>
+    </div>
+  </div>
+
+  <h2>Похожие запросы</h2>
+  <div class="tag-cloud">
+    <span>карта туалетов мадрида</span>
+    <span>туалеты в мадриде</span>
+    <span>бесплатные туалеты мадрид</span>
+    <span>общественные туалеты мадрид</span>
+    <span>где туалет в мадриде</span>
+    <span>aseos públicos madrid</span>
+    <span>туалеты в центре мадрида</span>
+    <span>платный туалет мадрид цена</span>
+    <span>public toilets madrid map</span>
+    <span>madrid free toilets</span>
+    <span>ближайший туалет мадрид</span>
+  </div>
+
+  <p class="promo">Собираешься в Петербург? Посмотри на районы глазами местных → <a href="https://pitermap.netlify.app/" target="_blank" rel="noopener">pitermap.netlify.app</a></p>
+</section>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+  // Официальные точки (тип "paid", 0,10 €) — портал открытых данных мэрии Мадрида,
+  // набор "Aseos públicos fijos con publicidad" (datos.madrid.es).
+  // Точки "free" — отдельные бесплатные туалеты в парках/культурных центрах (доп. подборка).
+  const TOILETS = [{"id":"020035ASW","district":"Centro","name":"Plaza Isabel II, 7","note":"","lat":40.418455,"lng":-3.709129,"since":"1/16/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020034ASW","district":"Centro","name":"Plaza Emperador Carlos V, 9","note":"","lat":40.408589,"lng":-3.692684,"since":"12/19/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020037AS","district":"Ciudad Lineal","name":"Calle Virgen del Sagrario, 3","note":"","lat":40.433804,"lng":-3.64748,"since":"4/17/2024","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020059AS","district":"Centro","name":"Parque Madrid Rio","note":"Cercano a quiosco \"Bonaparte\"","lat":40.417017,"lng":-3.721598,"since":"7/10/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020022AS","district":"Centro","name":"Paseo Recoletos, 17","note":"","lat":40.421672,"lng":-3.692417,"since":"12/8/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020093AS","district":"Centro","name":"Paseo Prado, 10","note":"","lat":40.414632,"lng":-3.694038,"since":"10/31/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020054AS","district":"Centro","name":"Calle Genova, 29","note":"","lat":40.425381,"lng":-3.691601,"since":"2/14/2019","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020027ASW","district":"Arganzuela","name":"Glorieta Embajadores, 7","note":"","lat":40.404694,"lng":-3.703057,"since":"1/19/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020003AS","district":"Arganzuela","name":"Calle Mendez Alvaro, 5","note":"","lat":40.401629,"lng":-3.686763,"since":"1/19/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020002AS","district":"Arganzuela","name":"Calle Ferrocarril, 1","note":"","lat":40.40072,"lng":-3.694359,"since":"10/30/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020006AS","district":"Arganzuela","name":"Paseo Yeserias, 44","note":"","lat":40.397415,"lng":-3.70688,"since":"11/6/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020009AS","district":"Arganzuela","name":"Paseo Juan Antonio Vallejo-Nájera, 15","note":"","lat":40.401218,"lng":-3.704976,"since":"11/20/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020007AS","district":"Arganzuela","name":"Paseo Chopera, 33","note":"","lat":40.394661,"lng":-3.700134,"since":"11/23/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020008AS","district":"Arganzuela","name":"Calle Maestro Arbos, 3","note":"Plaza legazpi","lat":40.390505,"lng":-3.694893,"since":"11/24/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020004AS","district":"Arganzuela","name":"Glorieta Santa Maria de la Cabeza, 13","note":"","lat":40.40094,"lng":-3.699916,"since":"12/19/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020001ASW","district":"Arganzuela","name":"Calle Mendez Alvaro, 2","note":"","lat":40.407082,"lng":-3.692789,"since":"3/7/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020055AS","district":"Arganzuela","name":"Calle Villarrobledo, 15","note":"","lat":40.39283,"lng":-3.681199,"since":"3/13/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020025ASW","district":"Arganzuela","name":"Calle Toledo, 127","note":"","lat":40.406091,"lng":-3.711733,"since":"4/3/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020039AS","district":"Retiro","name":"Paseo Infanta Isabel, 9","note":"","lat":40.407668,"lng":-3.689372,"since":"5/8/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020094AS","district":"Retiro","name":"Plaza Conde de Casal, 7","note":"","lat":40.406161,"lng":-3.670066,"since":"11/29/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020092AS","district":"Retiro","name":"Plaza Niño Jesus, 1","note":"","lat":40.411367,"lng":-3.675845,"since":"3/17/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020049AS","district":"Retiro","name":"Calle Juan Esplandiu, 2","note":"","lat":40.415919,"lng":-3.662834,"since":"7/4/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020029AS","district":"Retiro","name":"Calle Doctor Esquerdo, 66","note":"","lat":40.414503,"lng":-3.669996,"since":"11/1/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020097ASW","district":"Salamanca","name":"Calle Serrano, 32","note":"","lat":40.425254,"lng":-3.688169,"since":"12/14/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020095ASW","district":"Salamanca","name":"Avenida Felipe II, 12","note":"","lat":40.423865,"lng":-3.675919,"since":"12/5/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020099ASW","district":"Salamanca","name":"Plaza Manuel Becerra, 7","note":"","lat":40.428619,"lng":-3.668993,"since":"5/8/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020026AS","district":"Salamanca","name":"Calle Nuñez de Balboa, 70","note":"","lat":40.430463,"lng":-3.682382,"since":"3/20/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020098AS","district":"Salamanca","name":"Avenida Toreros, 79","note":"","lat":40.432601,"lng":-3.661458,"since":"2/4/2019","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020047AS","district":"Chamartín","name":"Plaza Castilla, 9","note":"","lat":40.465524,"lng":-3.688785,"since":"1/19/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020048AS","district":"Chamartín","name":"Calle Principe de Vergara, 275","note":"","lat":40.458099,"lng":-3.676994,"since":"11/20/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020043AS","district":"Chamartín","name":"Calle San Ernesto, 2","note":"","lat":40.449339,"lng":-3.676971,"since":"3/8/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020044AS","district":"Chamartín","name":"Plaza Prosperidad, 1","note":"","lat":40.443973,"lng":-3.67491,"since":"3/23/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020111AS","district":"Tetuán","name":"Parque Rodriguez Sahagun","note":"","lat":40.468885,"lng":-3.710926,"since":"12/14/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020106AS","district":"Tetuán","name":"Paseo Direccion, 374","note":"","lat":40.471928,"lng":-3.700862,"since":"12/29/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020110AS","district":"Tetuán","name":"Calle Basilica, 15","note":"","lat":40.449297,"lng":-3.695593,"since":"2/6/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020051AS","district":"Chamberí","name":"Calle Andres Mellado, 34","note":"","lat":40.433467,"lng":-3.714533,"since":"12/7/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020108AS","district":"Chamberí","name":"Avenida Reina Victoria, 7","note":"","lat":40.446839,"lng":-3.704953,"since":"2/22/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020030AS","district":"Chamberí","name":"Plaza Juan Zorrilla, 4","note":"","lat":40.442282,"lng":-3.704381,"since":"3/19/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020112AS","district":"Chamberí","name":"Plaza San Juan de la Cruz, 9","note":"","lat":40.441315,"lng":-3.69487,"since":"4/4/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020052AS","district":"Chamberí","name":"Glorieta Quevedo, 1","note":"","lat":40.433187,"lng":-3.704252,"since":"6/12/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020096AS","district":"Chamberí","name":"Glorieta Ruiz Jimenez, 5","note":"","lat":40.429726,"lng":-3.705353,"since":"10/15/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020064AS","district":"Fuencarral-El Pardo","name":"Calle Costa Brava, 13","note":"","lat":40.494946,"lng":-3.701035,"since":"8/11/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020036ASW","district":"Fuencarral-El Pardo","name":"Paseo Vaguada, 13","note":"","lat":40.480058,"lng":-3.712194,"since":"12/5/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020107AS","district":"Fuencarral-El Pardo","name":"Avenida Monasterio del Escorial, 3","note":"","lat":40.504728,"lng":-3.709981,"since":"3/2/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020065AS","district":"Fuencarral-El Pardo","name":"Avenida La Guardia, 4","note":"","lat":40.519061,"lng":-3.775684,"since":"5/9/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020068AS","district":"Fuencarral-El Pardo","name":"Calle Ginzo de Limia, 47","note":"","lat":40.483448,"lng":-3.706387,"since":"7/5/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020033AS","district":"Fuencarral-El Pardo","name":"Calle Pedro Rico, 1","note":"","lat":40.480289,"lng":-3.689578,"since":"11/24/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020081ASW","district":"Moncloa-Aravaca","name":"Paseo Pintor Rosales, 14","note":"","lat":40.425409,"lng":-3.718507,"since":"1/16/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020113AS","district":"Moncloa-Aravaca","name":"Calle Sanchez Preciado, 75","note":"","lat":40.463713,"lng":-3.709349,"since":"2/5/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020078AS","district":"Moncloa-Aravaca","name":"Paseo Juan XXIII, 13","note":"","lat":40.448219,"lng":-3.717014,"since":"3/1/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020090AS","district":"Moncloa-Aravaca","name":"Calle Isla de Oza, 82","note":"","lat":40.463625,"lng":-3.720954,"since":"3/21/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020080AS","district":"Moncloa-Aravaca","name":"Paseo Moret, 1","note":"","lat":40.434919,"lng":-3.719918,"since":"4/26/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020040AS","district":"Moncloa-Aravaca","name":"Glorieta San Vicente, 1","note":"","lat":40.420759,"lng":-3.720789,"since":"4/26/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020076AS","district":"Latina","name":"Calle Villamanin, 31","note":"","lat":40.40739,"lng":-3.752354,"since":"5/24/2021","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020073AS","district":"Latina","name":"Calle Higueras, 49","note":"","lat":40.404682,"lng":-3.745407,"since":"11/6/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020063AS","district":"Latina","name":"Calle Cuart de Poblet, 1","note":"","lat":40.39911,"lng":-3.744894,"since":"12/14/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020053AS","district":"Latina","name":"Paseo Ermita del Santo, 2","note":"Cercano a quiosco \"Segovia\"","lat":40.413572,"lng":-3.724084,"since":"2/13/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020067AS","district":"Latina","name":"Calle Concejal Francisco Jose Jimenez Martin, 174","note":"","lat":40.400585,"lng":-3.755361,"since":"2/15/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020074AS","district":"Latina","name":"Calle Blas Cabrera, 141","note":"","lat":40.378115,"lng":-3.765392,"since":"2/21/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020071AS","district":"Latina","name":"Avenida Las Aguilas, 76","note":"","lat":40.381398,"lng":-3.78026,"since":"4/17/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020045AS","district":"Latina","name":"Calle Valmojado, 99","note":"","lat":40.394009,"lng":-3.758295,"since":"2/18/2019","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020070AS","district":"Latina","name":"Calle Ocaña, 2","note":"","lat":40.385899,"lng":-3.76031,"since":"2/28/2019","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020014AS","district":"Carabanchel","name":"Avenida Peseta, 47","note":"","lat":40.362867,"lng":-3.757678,"since":"11/6/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020013AS","district":"Carabanchel","name":"Parque Madrid Rio","note":"Cercano a quiosco \"Montserrat\"","lat":40.397588,"lng":-3.7129,"since":"11/6/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020109AS","district":"Carabanchel","name":"Avenida Euro, 2","note":"","lat":40.373465,"lng":-3.738752,"since":"11/13/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020102AS","district":"Carabanchel","name":"Avenida Oporto, 4","note":"","lat":40.384971,"lng":-3.718932,"since":"12/20/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020010AS","district":"Carabanchel","name":"Avenida Manzanares, 108","note":"Junto a paseo de san illan","lat":40.399392,"lng":-3.718943,"since":"1/25/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020023AS","district":"Carabanchel","name":"Calle Carlos Daban, 30","note":"","lat":40.397406,"lng":-3.731235,"since":"4/20/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020016AS","district":"Carabanchel","name":"Glorieta Marques de Vadillo, 2","note":"","lat":40.397332,"lng":-3.715501,"since":"4/23/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020005AS","district":"Carabanchel","name":"Travesia Ivan de Vargas, 1","note":"","lat":40.402908,"lng":-3.723383,"since":"4/24/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020114ASW","district":"Usera","name":"Avenida Rafaela Ybarra","note":"Parque de pradolongo","lat":40.377888,"lng":-3.711969,"since":"1/19/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020017ASW","district":"Usera","name":"Calle Camino de Perales, 48","note":"Parque lineal del manzanares","lat":40.378733,"lng":-3.690377,"since":"6/5/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020021AS","district":"Usera","name":"Calle Tomelloso, 63","note":"","lat":40.379463,"lng":-3.700149,"since":"11/20/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020125AS","district":"Usera","name":"Avenida Manzanares, 218","note":"Cercano a quiosco \"Princesa\"","lat":40.389593,"lng":-3.699272,"since":"3/19/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020085ASW","district":"Puente de Vallecas","name":"Avenida Albufera, 1","note":"Calle 30","lat":40.398301,"lng":-3.669491,"since":"9/23/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020087AS","district":"Puente de Vallecas","name":"Avenida Democracia, 1","note":"","lat":40.38226,"lng":-3.624984,"since":"1/19/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020088AS","district":"Puente de Vallecas","name":"Calle Mancha, 1","note":"","lat":40.381182,"lng":-3.669187,"since":"10/23/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020086AS","district":"Puente de Vallecas","name":"Calle Santillana del Mar, 9","note":"","lat":40.390504,"lng":-3.646161,"since":"3/5/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020089AS","district":"Puente de Vallecas","name":"Calle Pio Felipe, 42","note":"","lat":40.391808,"lng":-3.654384,"since":"4/4/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020056AS","district":"Puente de Vallecas","name":"Calle Aragoneses, 8","note":"","lat":40.381021,"lng":-3.643479,"since":"9/21/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020127AS","district":"Puente de Vallecas","name":"Avenida Miguel Hernandez, 48","note":"","lat":40.388695,"lng":-3.634767,"since":"7/26/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020050AS","district":"Moratalaz","name":"Avenida Doctor Garcia Tapia, 127","note":"","lat":40.409901,"lng":-3.640641,"since":"11/20/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020084AS","district":"Moratalaz","name":"Calle Hacienda de Pavones, 231","note":"","lat":40.400495,"lng":-3.634313,"since":"12/13/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020077AS","district":"Moratalaz","name":"Calle Laguna Negra, 7","note":"","lat":40.40446,"lng":-3.630518,"since":"2/15/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020083AS","district":"Moratalaz","name":"Avenida Moratalaz, 70","note":"","lat":40.406055,"lng":-3.650114,"since":"5/24/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020015AS","district":"Moratalaz","name":"Calle Jose Bergamin, 7","note":"","lat":40.411327,"lng":-3.633195,"since":"7/4/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020042ASW","district":"Ciudad Lineal","name":"Calle Misterios, 1","note":"","lat":40.438059,"lng":-3.638914,"since":"1/16/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020062AS","district":"Ciudad Lineal","name":"Calle Juan Perez Zuñiga, 2","note":"","lat":40.441057,"lng":-3.649482,"since":"1/25/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020061AS","district":"Ciudad Lineal","name":"Calle Virgen de la Roca, 20","note":"","lat":40.435415,"lng":-3.657617,"since":"2/6/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020124AS","district":"Ciudad Lineal","name":"Calle Virgen del Sagrario, 20","note":"","lat":40.435648,"lng":-3.64887,"since":"8/7/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020058AS","district":"Hortaleza","name":"Avenida Machupichu, 9","note":"","lat":40.456254,"lng":-3.623931,"since":"12/7/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020069AS","district":"Hortaleza","name":"Calle Santa Adela, 14","note":"","lat":40.478705,"lng":-3.649644,"since":"12/14/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020075AS","district":"Hortaleza","name":"Calle Bacares, 24","note":"","lat":40.476826,"lng":-3.6627,"since":"10/30/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020126AS","district":"Villaverde","name":"Calle Santa Petronila, 15","note":"Intercambiador villaverde","lat":40.350083,"lng":-3.69258,"since":"2/13/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020130AS","district":"Villaverde","name":"Plaza Agata, 1","note":"","lat":40.346489,"lng":-3.709129,"since":"2/27/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020123AS","district":"Villaverde","name":"Calle Encarnacion del Pino, 29","note":"","lat":40.34648,"lng":-3.715562,"since":"12/20/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020122AS","district":"Villaverde","name":"Paseo Gigantes y Cabezudos, 4","note":"","lat":40.360695,"lng":-3.693871,"since":"2/20/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020115AS","district":"Villa de Vallecas","name":"Avenida Santa Eugenia, 79","note":"","lat":40.386604,"lng":-3.608208,"since":"12/28/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020116AS","district":"Villa de Vallecas","name":"Calle Sierra de Tortejada, 1","note":"","lat":40.371603,"lng":-3.618243,"since":"2/1/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020072AS","district":"Villa de Vallecas","name":"Calle Cañada del Santisimo, 45","note":"","lat":40.363191,"lng":-3.599276,"since":"11/30/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020121AS","district":"Vicálvaro","name":"Calle Villardondiego, 41","note":"","lat":40.404406,"lng":-3.608141,"since":"10/30/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020057AS","district":"Vicálvaro","name":"Avenida Comunidades, 5","note":"Parque de valdebernardo","lat":40.395888,"lng":-3.614744,"since":"12/27/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020119AS","district":"Vicálvaro","name":"Bulevar Jose Prat, 19","note":"","lat":40.39812,"lng":-3.622353,"since":"1/2/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020120AS","district":"Vicálvaro","name":"Avenida Gran Via del Este, 14","note":"","lat":40.401717,"lng":-3.596781,"since":"2/13/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020079AS","district":"Vicálvaro","name":"Calle Pedernal, 1","note":"","lat":40.405443,"lng":-3.598377,"since":"2/15/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020105AS","district":"San Blas-Canillejas","name":"Plaza Alsacia, 1","note":"Intercambiador alsacia","lat":40.41755,"lng":-3.623047,"since":"12/5/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020101ASW","district":"San Blas-Canillejas","name":"Calle Alcalá, 632","note":"Intercambiador canillejas","lat":40.448892,"lng":-3.609297,"since":"12/19/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020104AS","district":"San Blas-Canillejas","name":"Avenida Niza, 37","note":"","lat":40.429708,"lng":-3.607124,"since":"11/13/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020100AS","district":"San Blas-Canillejas","name":"Calle Suecia, 33","note":"Plaza de ginebra","lat":40.424273,"lng":-3.604074,"since":"11/22/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020118AS","district":"San Blas-Canillejas","name":"Calle Alcalá, 548","note":"En acceso a parque de torre arias","lat":40.44354,"lng":-3.617583,"since":"12/19/2017","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020066ASW","district":"San Blas-Canillejas","name":"Avenida Arcentales, 39","note":"Estadio metropolitano","lat":40.43332,"lng":-3.600989,"since":"1/24/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020028AS","district":"San Blas-Canillejas","name":"Calle Alcalá, 502","note":"En acceso a parque de quinta de los molinos","lat":40.440635,"lng":-3.628243,"since":"5/14/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020011AS","district":"Barajas","name":"Parque De las Naciones","note":"Paseo de primavera","lat":40.463498,"lng":-3.600399,"since":"9/28/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020012ASW","district":"Barajas","name":"Parque De las Naciones","note":"Paseo central","lat":40.462253,"lng":-3.606833,"since":"10/24/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020129AS","district":"Barajas","name":"Parque De las Naciones","note":"Oeste auditorio","lat":40.456458,"lng":-3.608597,"since":"10/24/2016","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020128AS","district":"Barajas","name":"Calle Playa de Riazor, 45","note":"","lat":40.475635,"lng":-3.583734,"since":"3/9/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020024AS","district":"Barajas","name":"Paseo Alameda de Osuna, 48","note":"","lat":40.454464,"lng":-3.599607,"since":"3/10/2018","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020038AS","district":"Salamanca","name":"Avenida Brasilia","note":"Frente número 13","lat":40.438736,"lng":-3.660857,"since":"10/29/2019","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020082AS","district":"Moncloa-Aravaca","name":"Calle Golondrina, 1E","note":"","lat":40.448975,"lng":-3.784945,"since":"3/4/2020","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020091AS","district":"Ciudad Lineal","name":"Calle Ascao, 31","note":"","lat":40.430306,"lng":-3.640108,"since":"7/15/2020","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020041AS","district":"Puente de Vallecas","name":"Calle Benjamin Palencia, 2","note":"","lat":40.41448,"lng":-3.704035,"since":"12/7/2022","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020032ASW","district":"Villa de Vallecas","name":"Glorieta Granjuela","note":"","lat":40.372793,"lng":-3.624675,"since":"12/27/2023","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020046ASW","district":"Carabanchel","name":"Calle Conde de Morphy","note":"","lat":40.379242,"lng":-3.74501,"since":"5/8/2024","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020031ASW","district":"Barajas","name":"Parque De las Naciones","note":"Parada tren","lat":40.461062,"lng":-3.609578,"since":"7/4/2024","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020019ASW","district":"Hortaleza","name":"Calle Pedroñeras, 50","note":"","lat":40.467926,"lng":-3.63133,"since":"5/10/2024","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020018ASW","district":"Moratalaz","name":"Calle Hacienda de Pavones, 125","note":"Anfevi","lat":40.403273,"lng":-3.639881,"since":"3/6/2025","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020020ASW","district":"Barajas","name":"Calle Ayerbe","note":"","lat":40.470483,"lng":-3.578152,"since":"7/4/2025","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020060ASW","district":"Usera","name":"Calle Fornillos","note":"Frente numero 58","lat":40.38277,"lng":-3.71147,"since":"11/6/2025","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020103AS","district":"Chamartín","name":"Avenida Alberto Alcocer, 9B","note":"","lat":40.459067,"lng":-3.687496,"since":"","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"020117ASW","district":"Latina","name":"Calle Muntadas, 11","note":"","lat":40.374201,"lng":-3.762841,"since":"4/10/2026","type":"paid","price":"0,10 €","hours":"24 ч (доступ по монете)"},{"id":"FREE-RETIRO","district":"Retiro","name":"Парк Ретиро — у Пуэрта де Алькала","note":"Общественный туалет парка, вход свободный","lat":40.42,"lng":-3.688,"since":"","type":"free","price":"Бесплатно","hours":"06:00–24:00 (зависит от сезона)"},{"id":"FREE-CASADECAMPO","district":"Moncloa-Aravaca","name":"Casa de Campo — у озера (Lago)","note":"Туалет рядом с пристанью, вход свободный","lat":40.4185,"lng":-3.7413,"since":"","type":"free","price":"Бесплатно","hours":"10:00–20:00 (зависит от сезона)"},{"id":"FREE-MATADERO","district":"Arganzuela","name":"Matadero Madrid","note":"Туалеты культурного центра, свободный доступ в часы работы","lat":40.3928,"lng":-3.6975,"since":"","type":"free","price":"Бесплатно","hours":"по расписанию центра"},{"id":"FREE-JUANCARLOS","district":"Barajas","name":"Парк Хуан Карлос I","note":"Несколько точек в парке, вход свободный","lat":40.4667,"lng":-3.6167,"since":"","type":"free","price":"Бесплатно","hours":"07:00 — до темноты"},{"id":"FREE-BRAVOMURILLO","district":"Tetuán","name":"Casa de Baños — Calle Bravo Murillo, 133","note":"Муниципальные бесплатные душевые и туалеты (временно закрыто на момент публикации — уточняйте на madrid.es)","lat":40.4548,"lng":-3.7024,"since":"","type":"free","price":"Бесплатно","hours":"Пн–Вс 08:30–14:30, праздники 09:00–14:30"}];
+
+  const map = L.map('map', {zoomControl:false}).setView([40.4200, -3.7038], 12);
+  L.control.zoom({position:'bottomright'}).addTo(map);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  function makeIcon(type){
+    const color = type === 'free' ? '#2E7D5B' : '#B24C2E';
+    return L.divIcon({
+      className:'',
+      html:`<div style="width:14px;height:14px;border-radius:50%;background:${color};border:2px solid #F2EFE6;box-shadow:0 0 0 1px rgba(0,0,0,.35)"></div>`,
+      iconSize:[14,14],
+      iconAnchor:[7,7],
+      popupAnchor:[0,-7]
+    });
+  }
+
+  let markers = [];
+  const markerLayer = L.layerGroup().addTo(map);
+
+  function renderMarkers(list){
+    markerLayer.clearLayers();
+    markers = [];
+    const bounds = [];
+    list.forEach(t=>{
+      const marker = L.marker([t.lat, t.lng], {icon: makeIcon(t.type)});
+      const badge = t.type === 'free' ? '<span class="badge free">Бесплатно</span>' : '<span class="badge paid">0,10 €</span>';
+      const noteLine = t.note ? `<p>${t.note}</p>` : '';
+      const sinceLine = t.since ? `<p>Установлен: ${t.since}</p>` : '';
+      marker.bindPopup(`
+        <div class="popup">
+          <h3>${t.name}</h3>
+          <p>Район: ${t.district}</p>
+          <p>Часы: ${t.hours}</p>
+          ${noteLine}
+          ${sinceLine}
+          ${badge}
+        </div>
+      `);
+      marker.addTo(markerLayer);
+      markers.push(marker);
+      bounds.push([t.lat, t.lng]);
+    });
+    document.getElementById('count').textContent = list.length;
+    if (bounds.length) map.fitBounds(bounds, {padding:[24,24]});
+  }
+
+  // Populate district filter
+  const districtSelect = document.getElementById('district-filter');
+  const districts = [...new Set(TOILETS.map(t => t.district))].sort((a,b)=>a.localeCompare(b,'ru'));
+  districts.forEach(d=>{
+    const opt = document.createElement('option');
+    opt.value = d;
+    opt.textContent = d;
+    districtSelect.appendChild(opt);
+  });
+
+  const typeSelect = document.getElementById('type-filter');
+
+  function applyFilters(){
+    const d = districtSelect.value;
+    const t = typeSelect.value;
+    const filtered = TOILETS.filter(x =>
+      (d === 'all' || x.district === d) &&
+      (t === 'all' || x.type === t)
+    );
+    renderMarkers(filtered);
+  }
+
+  districtSelect.addEventListener('change', applyFilters);
+  typeSelect.addEventListener('change', applyFilters);
+
+  renderMarkers(TOILETS);
+</script>
+</body>
+</html>

@@ -81,6 +81,7 @@ A: Нет, карта бесплатна и доступна в браузере
   мэрии Мадрида: https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=edcaaa8cf6bda510VgnVCM1000001d4a900aRCRD
 
 ## Контакты
+- Заговорить на испанском за 45 дней: https://kristinaperez.netlify.app/
 - Telegram: https://t.me/FeedbackCristinaBot
 - Telegram Блог: https://t.me/kristinaperez9
 - Блог на WP: https://kristinaperez9.wordpress.com
@@ -88,7 +89,7 @@ A: Нет, карта бесплатна и доступна в браузере
 - Карта районов Питера: https://pitermap.netlify.app/
 - Карта районов Мадрида: https://madridmap.netlify.app/
 - Карта туалетов Мадрида: https://aseosmadrid.netlify.app/
-- Заговорить на испанском за 45 дней: https://kristinaperez.netlify.app/
+- Карта туалетов Барселоны: https://aseosbarcelona.netlify.app/
 
 ## Разрешения для ИИ-агентов и поисковых роботов
 Контент этой страницы можно индексировать, цитировать и упоминать в ответах поисковых

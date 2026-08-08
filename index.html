@@ -1,3 +1,4 @@
+Переезжаешь в Испанию? Узнай, как заговорить → <a href="https://kristinaperez.netlify.app/" 
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -183,7 +184,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     color:var(--cream);
     padding:14px 18px 12px;
     display:flex;
-    align-items:baseline;
+    align-items:center;
     justify-content:space-between;
     gap:10px;
     flex-wrap:wrap;
@@ -203,6 +204,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     text-transform:uppercase;
     color:var(--gold);
     margin-top:2px;
+  }
+  .header-right{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap:8px;
+  }
+  .promo-header{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.72rem;
+    line-height:1.35;
+    background:var(--gold);
+    color:var(--navy-deep);
+    padding:6px 12px;
+    border-radius:4px;
+    text-align:right;
+    max-width:260px;
+  }
+  .promo-header a{
+    color:var(--navy-deep);
+    font-weight:700;
+    text-decoration:underline;
   }
   .stat{
     font-family:"Helvetica Neue",Arial,sans-serif;
@@ -334,22 +357,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
   .promo{ margin:6px 0 0; }
 
-  @media (max-width:480px){
+  @media (max-width:640px){
     header{padding:10px 12px;}
     header h1{font-size:1rem;}
+    .header-right{ align-items:flex-end; gap:6px; }
+    .promo-header{ font-size:.65rem; padding:5px 8px; max-width:200px; }
     .toolbar{padding:8px 12px;}
     .legend{padding:8px 12px; font-size:.68rem; gap:10px;}
     footer{padding:8px 12px 14px;}
     .seo-content{padding:22px 14px 40px;}
   }
 </style>
+<base target="_blank">
 </head>
 <body>
 <meta name="google-site-verification" content="ZjVxI1b6pNkHKDMngdgiecAkOZgNiGaXEC6FuucKKTw"/>
 
 <header>
   <h1>Aseos públicos de Madrid<small>Карта туалетов Мадрида</small></h1>
-  <div class="stat"><b id="count">—</b>точек на карте</div>
+  <div class="header-right">
+    <div class="stat"><b id="count">—</b>точек на карте</div>
+    <div class="promo-header">Переезжаешь в Испанию? Узнай, как заговорить → <a href="https://kristinaperez.netlify.app/" target="_blank" rel="noopener">kristinaperez.netlify.app</a></div>
+  </div>
 </header>
 
 <div class="toolbar">
